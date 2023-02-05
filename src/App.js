@@ -13,7 +13,7 @@ const App = () => {
 
   console.log(board);
   const handleSquareClick = (position) => {
-    if (board[position] || winner) {
+    if (board[position] || winner) {  
       return;
     }
     setBoard((prev) => {
